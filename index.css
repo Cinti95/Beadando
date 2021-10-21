@@ -1,0 +1,50 @@
+.container{
+    background-image: 100%;
+    max-width: 1000px;
+    background-color: rgb(172,243,243);
+    padding: 20px;
+    margin: 0 auto;
+}
+h1{
+    color: blue;
+}
+h2{
+    color: blue;
+}
+.section p{
+    display: block;
+}
+.kep-tarolo div{
+    border: 1px solid blue;
+    display: inline-block;
+}
+.kep-tarolo img{
+    width: 200px;
+    border: 1px solid blue;
+}
+.kep-tarolo p{
+    color: blue;
+    background-color: rgb(172,243,243);
+}
+.section{
+    width: 200px;
+    height: 200px;
+    color: blue;
+}
+table{
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid blue;
+}
+thead{
+    background-color: blue;
+    color: white;
+}
+th,td{
+    padding: 5px;
+    border: 1px solid white;
+}
+footer{
+    color: blue;
+    justify-content: flex-end;
+}
