@@ -1,7 +1,7 @@
 .container{
     background-image: 100%;
-    max-width: 1000px;
     background-color: rgb(172,243,243);
+    max-width: 850px;
     padding: 20px;
     margin: 0 auto;
 }
@@ -17,14 +17,16 @@ h2{
 .kep-tarolo div{
     border: 1px solid blue;
     display: inline-block;
+    justify-content: space-between;
+    box-shadow: 5 5 10;
 }
 .kep-tarolo img{
     width: 200px;
-    border: 1px solid blue;
 }
 .kep-tarolo p{
     color: blue;
     background-color: rgb(172,243,243);
+    text-align: center;
 }
 .section{
     width: 200px;
@@ -47,4 +49,6 @@ th,td{
 footer{
     color: blue;
     justify-content: flex-end;
+    text-align: right;
+    padding: 10px;
 }
